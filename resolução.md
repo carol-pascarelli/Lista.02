@@ -42,7 +42,7 @@ Qual das seguintes alternativas melhor descreve o que o código faz?
 
 A) O código avalia a expressão booleana, imprime o resultado `false`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
 
-B) O código avalia a expressão booleana, imprime o resultado `true`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
+**B) O código avalia a expressão booleana, imprime o resultado `true`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.**
 
 C) O código avalia a expressão booleana, imprime o resultado `true` e verifica se o número 5 está presente na lista de números.
 
@@ -106,7 +106,7 @@ Escolha a opção que responde corretamente qual seria a saída após a execuç�
 
 A) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -1050.'
 
-B) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -1050.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -100.'
+**B) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -1050.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -100.'**
 
 C) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -100.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -1050.'
 
@@ -137,7 +137,7 @@ B) O código verifica se o número é par ou ímpar. Se for par, exibe a mensage
 
 C) O código verifica se o número é par e se é divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!".
 
-D) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for ímpar, exibe a mensagem "O número é ímpar!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!".
+**D) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for ímpar, exibe a mensagem "O número é ímpar!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!".**
 
 
 ______
@@ -201,17 +201,17 @@ Compra 3 aprovada. Saldo restante: 400
 Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
 
 
-D)
+**D)**
 
-Compra 1 aprovada. Saldo restante: 800
+**Compra 1 aprovada. Saldo restante: 800**
 
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
+**Compra 2 aprovada com limite de crédito. Saldo restante: 700**
 
-Compra 3 aprovada. Saldo restante: 400
+**Compra 3 aprovada. Saldo restante: 400**
 
-Compra 4 aprovada. Saldo restante: 0
+**Compra 4 aprovada. Saldo restante: 0**
 
-Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
+**Compra 5 negada. Saldo insuficiente e limite de crédito excedido.**
 
 ______
 
@@ -221,7 +221,7 @@ Escolha a opção que responde corretamente:
 
 A) Setup -> Update -> Draw
 
-B) Preload -> Create -> Update
+**B) Preload -> Create -> Update**
 
 C) Load -> Initialize -> Render
 
@@ -234,7 +234,7 @@ Escolha a opção que responde corretamente:
 
 A) Renderizar gráficos 3D para jogos em HTML5.
 
-B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.
+**B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.**
 
 C) Criar efeitos de áudio para melhorar a experiência do usuário em jogos.
 
@@ -247,6 +247,15 @@ ______
 **7)** Implemente o pseudocódigo para o algoritmo representado no fluxograma da imagem.
 ![Uma imagem](assets/image.png)
 ______
+
+**RESPOSTA**
+var idade = x
+se idade <= 16 
+imprime: não pode votar 
+caso não, se idade >16 e <18 
+imprime: voto facultativo
+caso não
+imprime: voto obrigatório
 
 **8)** Considere a implementação da classe base FormaGeometrica em um sistema de modelagem de formas geométricas. Sua tarefa é implementar, utilizando pseudocódigo, as classes derivadas Retangulo e Circulo, que herdam da classe FormaGeometrica, adicionando atributos específicos e métodos para calcular a área de um retângulo e de um círculo, respectivamente.
 
@@ -263,9 +272,60 @@ Classe FormaGeometrica:
 
 ```
 
+**RESPOSTA**
+Classe FormaGeometrica:
+    Atributos:
+        - cor
+
+    Método Construtor(cor):
+        Define o valor do atributo cor com o valor passado como parâmetro.
+
+Classe Retangulo herda FormaGeometrica:
+    Atributos:
+    -cor
+    -altura
+    -largura
+    Método Super(cor, altura, largura)
+    Método Construtor(altura, largura)
+
+    
+    Método CalcularAreaRetangulo():
+    retorna altura*largura
+
+Classe Circulo herda FormaGeometrica:
+
+    Atributos: 
+    -cor
+    -raio
+
+    Método Super(cor, raio)
+    Método Contrutor(raio)
+
+    Método CalcularAreaCirculo():
+    retorna 2*raio*3.14
+
+
 ______
 
 **9)** Você foi contratado(a) como estagiário(a) da Tesla e está participando do desenvolvimento de um programa para simular o desempenho de um carro elétrico em uma corrida. Seu objetivo é determinar em quantos minutos o carro levará para completar uma determinada distância, levando em consideração uma velocidade inicial e uma taxa de aceleração constante. No entanto, você deseja garantir que o carro não exceda uma velocidade máxima nem que a corrida demore mais do que um tempo máximo. Implemente a lógica dessa simulação em pseudocódigo.
+
+**RESPOSTA**
+
+Função corrida(distancia, velocidadeInicial, aceleracao, velocidadeMaxima, tempoMaximo)
+
+tempo = 0
+velocidade = velocidade inicial 
+
+enquanto tempo<=tempoMaximo:
+se velocidadeInicial + aceleracao*tempo <= velocidadeMaxima 
+tempo = tempo + (distancia - velocidadeInicial*tempo)/velocidade
+
+
+
+se tempo>tempoMaximo
+imprime: "Tempo máximo excedido"
+caso não, se distancia = distancia final
+imprie: tempo
 
 
 
@@ -298,3 +358,24 @@ matrizSoma <- SomaDeMatrizes(matrizA, matrizB)
 Escrever("Soma das matrizes:")
 ImprimirMatriz(matrizSoma)
 ```
+
+**RESPOSTA**
+
+Função SomaDeMatrizes(matrizA, matrizB):
+    Se tamanhoColuna(matrizA) ≠ tamanhoLinha(matrizB) então:
+    imprime: "As matrizes não podem ser multiplicadas"
+    caso não:
+     linhasA <- tamanho(matrizA)
+        colunasA <- tamanho(matrizA[0]) # Número de colunas de matrizA
+        colunasB <- tamanho(matrizB[0]) # Número de colunas de matrizB
+        matrizResultado <- novaMatriz(linhasA, colunasB)
+
+ Loop para percorrer cada elemento das matrizes e calcular a multiplicação
+
+Para i de 0 até linhas-1 faça:
+Para j de 0 até colunasB-1 faça:
+matrizResultado[i][j]= matrizA(aij*aji)
+
+matrizMultiplicação <- MultiplicaçãoDeMatrizes(matrizA, matrizB)
+Escrever("Multiplicação das matrizes:")
+ImprimirMatriz(matrizResultado)
